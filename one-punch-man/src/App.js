@@ -1,5 +1,5 @@
 //all dependencies and files are imported for use
-import React from 'react';
+import React, {Component} from 'react';
 import hero from './hero.json';
 
 class App extends Component {
@@ -56,7 +56,20 @@ class App extends Component {
     }
   };
 
-  
+  //the order of components being rendered 
+  render () {
+    return (
+      <div>
+      <Navbar />
+
+      </div>
+      
+      <div>
+      <Footer/>
+      </div>
+    );
+  }
+}
 
 
 export default App;
