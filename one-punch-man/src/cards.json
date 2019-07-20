@@ -1,0 +1,122 @@
+[
+    {
+      "id": 1,
+      "name": "amai-mask",
+      "image": "./docs/images/amai-mask.png",
+      "count": 0
+    },
+    {
+      "id": 2,
+      "name": "atomic-samurai",
+      "image": "./docs/images/atomic-samurai.png",
+      "count": 0
+    },
+    {
+      "id": 3,
+      "name": "bang",
+      "image": "./docs/images/bang.png",
+      "count": 0
+    },
+    {
+      "id": 4,
+      "name": "child-emperor",
+      "image": "./docs/images/child-emperor.png",
+      "count": 0
+    },
+    {
+      "id": 5,
+      "name": "drive-knight",
+      "image": "./docs/images/drive-knight.png",
+      "count": 0
+    },
+    {
+      "id": 6,
+      "name": "flashy-flash",
+      "image": "./docs/images/flashy-flash.png",
+      "count": 0
+    },
+    {
+      "id": 7,
+      "name": "genos",
+      "image": "./docs/images/genos.png",
+      "count": 0
+    },
+    {
+      "id": 8,
+      "name": "king",
+      "image": "./docs/images/king.png",
+      "count": 0
+    },
+    {
+      "id": 9,
+      "name": "metal-bat",
+      "image": "./docs/images/metal-bat.png",
+      "count": 0
+    },
+    {
+      "id": 10,
+      "name": "mumen-rider",
+      "image": "./docs/images/mumen-rider.png",
+      "count": 0
+    },
+    {
+      "id": 11,
+      "name": "pig-god",
+      "image": "./docs/images/pig-god.png",
+      "count": 0
+    },
+    {
+      "id": 12,
+      "name": "puri-puri",
+      "image": "./docs/images/puri-puri.png",
+      "count": 0
+    },
+    {
+        "id": 13,
+        "name": "saitama",
+        "image": "./docs/images/saitama.png",
+        "count": 0
+      },
+      {
+        "id": 14,
+        "name": "stinger",
+        "image": "./docs/images/stinger.png",
+        "count": 0
+      },
+      {
+        "id": 15,
+        "name": "superalloy",
+        "image": "./docs/images/superalloy.png",
+        "count": 0
+      },
+      {
+        "id": 16,
+        "name": "tanktop-master",
+        "image": "./docs/images/tanktop-master.png",
+        "count": 0
+      },
+      {
+        "id": 17,
+        "name": "tatsumaki",
+        "image": "./docs/images/tatsumaki.png",
+        "count": 0
+      },
+      {
+        "id": 18,
+        "name": "watchdog-man",
+        "image": "./docs/images/watchdog-man.png",
+        "count": 0
+      },
+      {
+        "id": 19,
+        "name": "zombieman",
+        "image": "./docs/images/zombieman.png",
+        "count": 0
+      },
+      {
+        "id": 20,
+        "name": "metal-knight",
+        "image": "./docs/images/metal-knight.png",
+        "count": 0
+      }
+  ]
