@@ -11,7 +11,7 @@ class App extends Component {
   };
 
   //creating onClick event for when image is clicked, a hero-card is taken out of the array
-  onClick = event => {
+  clickedCard = event => {
     const currentHero =
       event.target.alt;
     const alreadyClickedHero =
