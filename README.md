@@ -1,4 +1,19 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# One Punch Man Memory Clicky Game!
+- App is deployed here 
+https://onepunchman-tmq.herokuapp.com/
+
+--------------------------------------------------------------------------
+## About 
+This Application is a memory game with React that is based on the anime One Punch Man. The UI are broken into components, managing component state, and respoding to user's events.
+
+## Technologies Used:
+
+- Javascript
+- React.js
+- Node.js
+- Git
+- Github
 
 ## Available Scripts
 
@@ -66,3 +81,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
