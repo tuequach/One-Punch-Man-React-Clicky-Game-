@@ -3,8 +3,9 @@ import './header.css';
 
 function Header (props) {
     <div className = 'header'>
-        <div className = 'tittle'>{props.children}</div>
-        <div className = 'scores'>Highscore: {props.highscore}
+        <div className = 'title'>One Punch Man!!!</div>
+        <div className = 'scores'>
+            Score: {props.score} Highscore: {props.highscore}
         </div>
     </div>
 };
