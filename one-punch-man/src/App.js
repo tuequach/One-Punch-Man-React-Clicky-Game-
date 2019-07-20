@@ -68,7 +68,7 @@ class App extends Component {
         <div className="wrapper">
         {this.state.hero.map(hero => (
           <Card
-            onClick={this.imageClick}
+            imageClick={this.imageClick}
             id={hero.id}
             key={hero.id}
             image={hero.image}

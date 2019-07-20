@@ -4,7 +4,7 @@ import "./Card.css";
 const Card = (props) => (
     <div className = 'card' onClick={props.imageClick}>
          <div className= 'img-container'>
-            <img alt = {props.name} src={props.image} />
+            <img alt = {props.image.replace(".jpg", "")} src={require("../../image/" + props.image)} />
         </div>
     </div>
 )
