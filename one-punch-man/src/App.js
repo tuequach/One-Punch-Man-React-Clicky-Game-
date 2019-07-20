@@ -4,13 +4,14 @@ import hero from './hero.json';
 import Header from './components/Header/Header.js';
 import Card from './components/Card/Card.js';
 import Footer from './components/Footer/Footer.js';
+import Wrapper from './components/Wrapper/Wrapper.js';
 
 
 class App extends Component {
   //setting all state to empty or 0
   state = {
     hero,
-    score: 0,
+    score: "",
     clickedHero: []
   };
 
@@ -28,7 +29,7 @@ class App extends Component {
           return 0.5 - Math.random();
         }),
         clickedHero: [],
-        score: 0
+        score: ""
       });
         alert("GAME OVER! :( Play Again");
 
@@ -64,6 +65,7 @@ class App extends Component {
   render () {
     return (
       <div>
+        <Wrapper>
         <Header />
         <div className="wrapper">
         {this.state.hero.map(hero => (
@@ -76,6 +78,7 @@ class App extends Component {
         ))}
       </div>
       <Footer />
+      </Wrapper>
       </div>
     );
   }
