@@ -1,17 +1,22 @@
 //all dependencies and files are imported for use
 import React, {Component} from 'react';
 import hero from './hero.json';
+import Header from './components/Header/Header.js';
+import Card from './components/Card/Card.js';
+import Footer from './components/Footer/Footer.js';
+import Wrapper from './components/Wrapper/Wrapper.js';
+
 
 class App extends Component {
   //setting all state to empty or 0
   state = {
-    cards,
+    hero,
     score: "",
     clickedHero: []
   };
 
   //creating onClick event for when image is clicked, a hero-card is taken out of the array
-  onClick = event => {
+  imageClick = event => {
     const currentHero =
       event.target.alt;
     const alreadyClickedHero =
@@ -24,9 +29,9 @@ class App extends Component {
           return 0.5 - Math.random();
         }),
         clickedHero: [],
-        score: 0
+        score: ""
       });
-      alert("GAME OVER! :( Play Again");
+        alert("GAME OVER! :( Play Again");
 
       //if clicked on a hero haven't guessed, score increases and heroes are randomized again
     } else {
@@ -44,7 +49,7 @@ class App extends Component {
           if (this.state.score === 20) {
             alert("Yay! You've guessed all the Heroes. You've Won!");
             this.setState({
-              hero: this.state.fish.sort(function (a, b) {
+              hero: this.state.hero.sort(function (a, b) {
                 return 0.5 - Math.random();
               }),
               clickedHero: [],
@@ -52,7 +57,7 @@ class App extends Component {
             });
           }
         }
-      };
+      );
     }
   };
 
@@ -60,12 +65,20 @@ class App extends Component {
   render () {
     return (
       <div>
-      <Navbar />
-
+        <Wrapper>
+        <Header />
+        <div className="wrapper">
+        {this.state.hero.map(hero => (
+          <Card
+            imageClick={this.imageClick}
+            id={hero.id}
+            key={hero.id}
+            image={hero.image}
+          />
+        ))}
       </div>
-      
-      <div>
-      <Footer/>
+      <Footer />
+      </Wrapper>
       </div>
     );
   }
